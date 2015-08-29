@@ -12,7 +12,6 @@ target
 .settings
 eclipse-classes
 .gradle/*
-*.gradle
 /.metadata
 out/*
 out
