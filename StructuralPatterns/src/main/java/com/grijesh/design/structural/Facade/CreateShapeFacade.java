@@ -14,7 +14,7 @@ public class CreateShapeFacade {
     }
 
     public void drawCircle(){
-        circle.draw();;
+        circle.draw();
     }
 
     public void drawRectangle(){
