@@ -11,11 +11,12 @@ public class ShapeFactory {
 
     public static Shape getObject(String color){
         Shape shape = objectHolder.get(color);
-        if(shape == null){
-            shape = new Circle(color,5);
-            objectHolder.put(color,shape);
-            return shape;
-        }
+
+        if(shape != null) return shape;
+
+        shape = new Circle(color,5);
+        objectHolder.put(color,shape);
         return shape;
+
     }
 }
