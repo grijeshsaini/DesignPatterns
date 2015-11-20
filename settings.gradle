@@ -4,3 +4,5 @@ include 'StructuralPatterns'
 
 include 'BehavioralPatterns'
 
+include 'CreationalPatterns'
+
